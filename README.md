@@ -14,7 +14,7 @@ npm install -g rewrite-vercel
 After installing the package, navigate to your project directory and run the following command to generate a vercel.json file:
 
 ```bash
-v-rewrite
+rewrite-vercel
 ```
 
 
