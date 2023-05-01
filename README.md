@@ -1,21 +1,21 @@
 ## Overview
-`rewrite-vercel` is a tool that generates a vercel.json file with pre-written rewrites for client-side routing. Install it globally with `npm` and run `rewrite-vercel` in your project directory to use it.
+🚀Quickly generate vercel.json file for your project. With pre-written config, no more `404 NOT FOUND` on **page-relaod**.
 
 ## Installation
-To install Vercel Rewrites, run the following command:
+Install Vercel Rewrites from npm:
 
 ```bash
 npm install -g rewrite-vercel
 ```
 
 ## Usage
-After installing the package *globally*, navigate to your project directory and run the following command to generate a vercel.json file:
+Navigate to your project directory and run the following command to generate a `vercel.json` file:
 
 ```bash
 rewrite-vercel
 ```
 
-This will create a `vercel.json` file in your project directory with the following contents:
+This will create a the file in your project directory with the following contents:
 
 ```json
 {
@@ -30,7 +30,7 @@ This will create a `vercel.json` file in your project directory with the followi
 
 ## Configuration
 
-By default, it configures for single-page applications, using client-side routing. If your project uses server-side routing you may need to modify the configuration.
+By default, it configures for single-page applications, using client-side routing. If your project uses server-side routing you may need to modify the `rewrites`.
 
 ## Contributing
 
