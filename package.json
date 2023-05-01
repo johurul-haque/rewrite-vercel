@@ -1,0 +1,27 @@
+{
+  "name": "rewrite-vercel",
+  "version": "1.0.0",
+  "description": "Boilerplate rewrite rules for Vercel",
+  "main": "index.js",
+  "bin": {
+    "rewrite-vercel": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johurul-haque/vercel-config"
+  },
+  "keywords": [
+    "vercel",
+    "json",
+    "rewrites"
+  ],
+  "author": "Johurul Haque",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readme": "README.md"
+}
