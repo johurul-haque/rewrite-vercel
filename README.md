@@ -15,7 +15,7 @@ Navigate to the root of your project and run the following command:
 rewrite-vercel
 ```
 
-This will create a `vercel.json` file with the following contents at the root of the project.
+This will create a `vercel.json` file with the following contents at the root of your project.
 
 ```json
 {
@@ -27,10 +27,6 @@ This will create a `vercel.json` file with the following contents at the root of
   ]
 }
 ```
-
-## Contributing
-
-If you encounter any issues or would like to contribute to Vercel Rewrites, please submit an issue or pull request on the [GitHub repository](https://github.com/johurul-haque/vercel-config).
 
 ## License
 This package is licensed under the MIT License.
