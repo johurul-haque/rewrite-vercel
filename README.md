@@ -1,21 +1,21 @@
 ## Overview
-🚀Quickly generate vercel.json file for your project. With pre-written config, no more `404 NOT FOUND` on **page-relaod**.
+Quickly generate pre-written Vercel config file for single-page applications
+
+No more `404 NOT FOUND` on **page-reload**.
 
 ## Installation
-Install Vercel Rewrites from npm:
-
 ```bash
 npm install -g rewrite-vercel
 ```
 
 ## Usage
-Navigate to your project directory and run the following command to generate a `vercel.json` file:
+Navigate to the root of your project and run the following command:
 
 ```bash
 rewrite-vercel
 ```
 
-This will create a the file in your project directory with the following contents:
+This will create a `vercel.json` file with the following contents at the root of the project.
 
 ```json
 {
@@ -27,10 +27,6 @@ This will create a the file in your project directory with the following content
   ]
 }
 ```
-
-## Configuration
-
-By default, it configures for single-page applications, using client-side routing. If your project uses server-side routing you may need to modify the `rewrites`.
 
 ## Contributing
 
