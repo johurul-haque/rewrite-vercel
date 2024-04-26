@@ -1,18 +1,18 @@
 ## Overview
-Quickly generate pre-written Vercel config file for single-page applications
-
-No more `404 NOT FOUND` on **page-reload**.
-
-## Installation
-```bash
-npm install -g rewrite-vercel
-```
+Create `vercel.json` file with pre-written SPA configurations. No more `404 NOT FOUND` on page reload.
 
 ## Usage
-Navigate to the root of your project and run the following command:
+```bash
+# Install globally
+$ npm install -g rewrite-vercel
+
+# Then run this at the root of your project
+$ rewrite-vercel
+```
 
 ```bash
-rewrite-vercel
+# Or you can use the npx command without installing it globally
+$ npx rewrite-vercel
 ```
 
 This will create a `vercel.json` file with the following contents at the root of your project.

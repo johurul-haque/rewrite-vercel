@@ -1,27 +1,20 @@
 {
   "name": "rewrite-vercel",
   "version": "1.0.0",
-  "description": "Boilerplate rewrite rules for Vercel",
+  "description": "Create vercel.json file with pre-written SPA configurations. No more 404 on page reload.",
   "main": "index.js",
-  "bin": {
-    "rewrite-vercel": "./index.js"
-  },
+  "bin": "./index.js",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/johurul-haque/vercel-config"
+    "url": "https://github.com/johurul-haque/rewrite-vercel"
   },
-  "keywords": [
-    "vercel",
-    "json",
-    "rewrites"
-  ],
-  "author": "Johurul Haque",
-  "license": "MIT",
   "dependencies": {
     "fs-extra": "^11.1.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "readme": "README.md"
+  "author": "Johurul Haque",
+  "license": "MIT",
+  "keywords": [
+    "vercel",
+    "config",
+    "SPA"
+  ]
 }
