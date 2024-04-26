@@ -11,7 +11,7 @@ $ rewrite-vercel
 ```
 
 ```bash
-# Or you can use the npx command without installing it globally
+# Or use the npx command without installing globally
 $ npx rewrite-vercel
 ```
 
