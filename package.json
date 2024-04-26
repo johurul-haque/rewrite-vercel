@@ -1,6 +1,6 @@
 {
   "name": "rewrite-vercel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create vercel.json file with pre-written SPA configurations. No more 404 on page reload.",
   "main": "index.js",
   "bin": "./index.js",
